@@ -1,0 +1,6 @@
+= Lambdamatic GitHub Client Code Generator
+
+A Maven plugin to generate code for the Lambdamatic GitHub Client library.
+The plugin retrieves the public GraphQL API at https://api.github.com/graphql[]
+and generates all the types (and some derivated types) that are used by the
+aforementioned library to query on the GraphQL-based API on github.com[].

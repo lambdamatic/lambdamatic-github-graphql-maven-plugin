@@ -20,6 +20,10 @@ public class GraphQLTypesGeneratorMojo extends AbstractMojo {
     @Parameter( defaultValue = "${project.build.directory}", property = "outputDir", required = true )
     private File outputDirectory;
 
+    /**
+     * Execute the Mojo.
+     * @throws MojoExecutionException in case of problem
+     */
     public void execute()
         throws MojoExecutionException {
         final File f = outputDirectory;

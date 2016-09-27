@@ -1,0 +1,16 @@
+package {{packageName}};
+
+import javax.annotation.Generated;
+
+/**
+ * {{description}}
+ */
+@Generated(value = "{{processorClassName}}")
+public enum {{name}} {
+
+{{#enumValues}}
+    /** {{description}} */
+    {{name}},
+{{/enumValues}}
+
+}
